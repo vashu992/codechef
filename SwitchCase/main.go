@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	for studentRollno:=0 ;studentRollno<=100 ;studentRollno+=5{
+		fmt.Println(studentRollno)
 
 	Daysofweek := 4
 
@@ -84,7 +86,7 @@ func main() {
 
 	}
 
-	studentRollno := 10
+	studentRollno := studentRollno
 
 	switch studentRollno {
 
@@ -496,4 +498,5 @@ func main() {
 
 	}
 
+}
 }
